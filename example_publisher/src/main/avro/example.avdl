@@ -1,0 +1,8 @@
+@namespace ("com.example.examplepub.event")
+protocol ExampleEvent {
+  record ExampleRecord {
+    @logicalType("timestamp-millis")
+    long timestamp;
+    string msg;
+  }
+}
